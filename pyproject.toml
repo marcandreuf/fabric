@@ -13,7 +13,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
-crewai = "^0.22.5"
+crewai = ">=0.28.8"
 unstructured = "0.10.25"
 pyowm = "3.3.0"
 tools = "^0.1.9"
@@ -48,6 +48,7 @@ gunicorn = "^21.2.0"
 gevent = "^23.9.1"
 httpx = ">=0.25.2,<0.26.0"
 tqdm = "^4.66.1"
+typer = "^0.9.4"
 
 [tool.poetry.group.server.dependencies]
 requests = "^2.31.0"
@@ -70,3 +71,4 @@ fabric-webui = 'installer:run_webui_server'
 ts = 'installer:main_ts'
 yt = 'installer:main_yt'
 save = 'installer:main_save'
+ft = 'installer:main_ft'
